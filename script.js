@@ -3,3 +3,11 @@ alert('bem vindo, ao meu site!')
 
 let resultado = 10%3;
 console.log(resultado);
+
+function salve(a,b){
+    return a+b;
+}
+
+let conta =salve(10,20);
+console.log(conta);
+    
