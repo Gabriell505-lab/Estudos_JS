@@ -11,3 +11,7 @@ function salve(a,b){
 let conta =salve(10,20);
 console.log(conta);
     
+const frutas = ["Maça", "Pera", "Banana"]
+
+console.log(frutas[0]);
+console.log(frutas.length);
