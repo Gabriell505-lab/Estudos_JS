@@ -32,3 +32,10 @@ const pessoa = {
 console.log(pessoa.nome);
 console.log(pessoa.idade);
 console.log(pessoa['curso']);
+
+const teste = {
+    primeiro: 10,
+    segundo: 'Gabs'
+};
+const{primeiro, segundo} = teste;
+console.log(primeiro, segundo);
