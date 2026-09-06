@@ -16,8 +16,19 @@ const frutas = ["Maça", "Pera", "Banana"]
 console.log(frutas[0]);
 console.log(frutas.length);
 
-const numeros = [1, 2, 3, 4];
+const numeros = [1, 2, 3, 4, 5];
 
 const dobrados = numeros.map(numero => numero * 2);
+console.log (numeros.filter(numero => numero> 3));
 
 console.log(dobrados); 
+
+const pessoa = {
+    nome: "Gabriell",
+    idade: 19,
+    curso: "engenharia de software"
+};
+
+console.log(pessoa.nome);
+console.log(pessoa.idade);
+console.log(pessoa['curso']);
