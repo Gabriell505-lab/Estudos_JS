@@ -15,3 +15,9 @@ const frutas = ["Maça", "Pera", "Banana"]
 
 console.log(frutas[0]);
 console.log(frutas.length);
+
+const numeros = [1, 2, 3, 4];
+
+const dobrados = numeros.map(numero => numero * 2);
+
+console.log(dobrados); 
