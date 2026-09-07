@@ -40,11 +40,17 @@ const teste = {
 const{primeiro, segundo} = teste;
 console.log(primeiro, segundo);
 
-function somar(a, b) {
-    return a + b;
-}
-const somar = (a, b) => {
-    return a + b;
-};
+// function somar(a, b) {
+//     return a + b;
+// }
+// const somar = (a, b) => {
+//     return a + b;
+// };
 
-const somar = (a, b) => a + b;
+// const somar = (a, b) => a + b;
+
+const lista = [1, 2, 3, 4];
+
+lista.forEach(listinha=> {
+    console.log(listinha*2)
+})
