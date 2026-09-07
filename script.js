@@ -50,7 +50,22 @@ console.log(primeiro, segundo);
 // const somar = (a, b) => a + b;
 
 const lista = [1, 2, 3, 4];
+const nova_lista = [...lista, 5, 6, 7];
+console.log(nova_lista);
 
 lista.forEach(listinha=> {
     console.log(listinha*2)
 })
+
+const person = {
+    nome: "João",
+    idade:19
+}
+const person_atualizada = {
+    ...person, 
+    idade:20
+};
+console.log(person);
+
+import { calculo } from "./aap.js";
+console.log(calculo(5,3));
