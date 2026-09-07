@@ -69,3 +69,6 @@ console.log(person);
 
 import { calculo } from "./aap.js";
 console.log(calculo(5,3));
+
+import somando from "./aap.js";
+console.log(somando(5,4));
