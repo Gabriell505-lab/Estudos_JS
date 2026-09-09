@@ -72,3 +72,11 @@ console.log(calculo(5,3));
 
 import somando from "./aap.js";
 console.log(somando(5,4));
+
+const buscarUsuario = () => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve("Usuário encontrado!");
+        }, 2000);
+    });
+}; //entrega o resultado depois Promise
