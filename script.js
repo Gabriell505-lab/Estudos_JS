@@ -80,3 +80,9 @@ const buscarUsuario = () => {
         }, 2000);
     });
 }; //entrega o resultado depois Promise
+
+async function buscarDados() {
+}
+
+const buscarDados = async () => {
+};
