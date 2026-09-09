@@ -6,5 +6,12 @@ function App() {
     
 
 };
-
 export default App;
+
+function Site() {
+    const nome = "Gabriell";
+
+    return (
+        <h1>Óla, {nome}!</h1>
+    );
+}
