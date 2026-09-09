@@ -81,8 +81,16 @@ const buscarUsuario = () => {
     });
 }; //entrega o resultado depois Promise
 
+const mostrarUsuario = async () => {
+    const usuario = await buscarUsuario();
+
+    console.log(usuario);
+};
+
+mostrarUsuario();
+
 async function buscarDados() {
 }
 
 const buscarDados = async () => {
-};
+};  
