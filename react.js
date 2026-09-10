@@ -41,3 +41,12 @@ function teste() {
         </div>
     );
 }
+
+const buscarUsuario = async() => {
+    const resposta = await fetch(
+        "https://jsonplaceholder.typicode.com/users"
+    );
+
+    const Usuario = await resposta.json();
+    console.log(Usuario);
+}
