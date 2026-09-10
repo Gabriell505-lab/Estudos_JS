@@ -10,7 +10,9 @@ export default App;
 
 function Site() {
     const nome = "Gabriell";
-    <div><Usuario nome = "Gabs" />;</div>
+    <div>
+        <Usuario nome = "Gabs" />;
+        </div>
 
     return (
         <h1>Óla, {nome}!</h1>
@@ -22,3 +24,20 @@ function Usuario({ nome }) {
 }
 
 console.log(Usuario);
+
+import { useState } from "react";
+
+
+function teste() {
+    const [contador, setContador] = useState(0);
+
+    return (
+        <div>
+            <h1>{contador}</h1>
+
+            <button onClick={() => setContador(contador + 1)}>
+                Aumentar
+            </button>
+        </div>
+    );
+}
